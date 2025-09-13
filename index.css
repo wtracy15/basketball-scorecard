@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Cursed Timer";
+    src: url("cursedtimer.ttf");
+}
+
 body {
     margin: 0;
 }
@@ -5,4 +10,55 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
+    background-color: #1b244a;
+    width: 575px;
+    padding: 30px 0 0 0;
+}
+
+#home-side {
+    margin: 0 0 0 27px;
+}
+
+#guest-side {
+    margin: 0 27px 0 0;
+}
+
+.team-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    font-size: 40px;
+    margin: 27px 0 17px 0;
+    text-align: center;
+}
+
+
+.score {
+    font-family: "Cursed Timer";
+    font-size: 88px;
+    text-align: center;
+    margin: 10px 0;
+    border-radius: 6px;
+    padding: 20px 0 5px 0;
+    color: #f94f6d;
+    background-color: black;
+}
+
+button {
+    font-family: "Cursed Timer";
+    font-size: 18px;
+    background-color: #1b244a;
+    color: #9aaad8;
+    border: 2px solid #9aaad8;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 0 2px;
+}
+
+.add-score-section {
+    padding: 15px 0 10px 0;
+}
+
+.subtract-button {
+    display: block;
+    margin: 0 auto 50px;
 }
