@@ -54,6 +54,10 @@ button {
     margin: 0 2px;
 }
 
+button:hover {
+    background-color: #465080;
+}
+
 .add-score-section {
     padding: 15px 0 10px 0;
 }
@@ -61,4 +65,8 @@ button {
 .subtract-button {
     display: block;
     margin: 0 auto 50px;
+}
+
+#reset-button {
+    margin: 0 0 0 247px;
 }

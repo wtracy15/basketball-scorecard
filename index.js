@@ -46,3 +46,10 @@ function addThreeGuest(){
     guestScore += 3
     guestScoreEl.textContent = guestScore
 }
+
+function reset(){
+    homeScore = 0
+    guestScore = 0
+    homeScoreEl.textContent = homeScore
+    guestScoreEl.textContent = guestScore
+}
